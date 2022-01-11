@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+    <div id="container" >
+      <header class=main-header>
+<form id="survey-form" method="post">
+   <table class="form-group" id="name">
+      <tr ><td><span class="title">Name</span><span class="red">*</span></td></tr> <tr class="inp" >
+         <td for="name">
+          
+        <input type="text" name="name" id="firstname" class="name" placeholder="[!]" required>
+     </td>
+     
+       <td for="name" class="two">
+        <input type="text" name="name" id="lastname" class="name"  required >
+       </td></tr>
+      <tr>
+       <td id="mini">First</td><td id=mini1 class="two">Last</td>
+      </tr></table>
+       </form>
+     </table>
+
+<div class="form-group">
+  <label for="email" class="title">Email</label><span class="red">*</span><br>  
+   <input name="email" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="experience" class="title">Your experience</label><span class="red">*</span><br>  
+      <div class="stars">
+        <form action="">
+          <input class="star star-5" id="star-5" type="radio" name="star"/>
+          <label class="star star-5" for="star-5"></label>
+          <input class="star star-4" id="star-4" type="radio" name="star"/>
+          <label class="star star-4" for="star-4"></label>
+          <input class="star star-3" id="star-3" type="radio" name="star"/>
+          <label class="star star-3" for="star-3"></label>
+          <input class="star star-2" id="star-2" type="radio" name="star"/>
+          <label class="star star-2" for="star-2"></label>
+          <input class="star star-1" id="star-1" type="radio" name="star"/>
+          <label class="star star-1" for="star-1"></label>
+        </form>
+      </div>
+    </div>
+<div class="form-group">
+  <label for="ex" class="ex">Overall, how would you rate your experience with us?</label><br>  
+    </div>
+    <div class="form-group">
+      <label for="option" class="option">How satisfied are you with<span class="red">*</span></label><br>  
+    <table class="table1">
+
+
+  <!--- css grid for radio option-->
+  <div class="grid">
+   <div class="w2"></div><div class="w2">very unsatisfied</div><div class="w2"> unsatisfied</div><div class="w2">Neutral</div><div class="w2">satisfied</div><div class="w2">very satisfied</div>
+ <div  class="blk" id="sidetitle1">Purchase</div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk" ><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div>
+   
+      <div  class="w2" id="sidetitle2">Service</div><div class="w2"><input type="radio"></div><div class="w2"><input type="radio"></div><div class="w2" ><input type="radio"></div><div class="w2"><input type="radio"></div><div class="w2"><input type="radio"></div>
+   
+   
+      <div  class="blk" id="sidetitle3">Company Overall</div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div></div>  
+</div>
+<br>
+<div class="title">How likely are you to<span class="red">*</span></div>
+<div class="grid">
+  <div class="w2"></div><div class="w2">very unlikely</div><div class="w2"> unlikely</div><div class="w2">Neutral</div><div class="w2">likely</div><div class="w2">very likely</div>
+  <div  class="blk" id="sidetitle1">Buy from us agin</div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk" ><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div>
+    
+       <div  class="w2" id="sidetitle2">Recomand our products to others</div><div class="w2"><input type="radio"></div><div class="w2"><input type="radio"></div><div class="w2" ><input type="radio"></div><div class="w2"><input type="radio"></div><div class="w2"><input type="radio"></div>
+    
+    
+       <div  class="blk" id="sidetitle3">Recomman our company to others</div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div><div class="blk"><input type="radio"></div></div>  
+</div><br>
+  <lable class="title">
+    Additional comments and sugesstions<br><br>
+    <textarea></textarea>
+    <br>
+  </lable> 
+        
+    <br>      
+       
+<button id="btn" type="submit" value="Register">Submit</button>  
+
+</form>
+      </header>  
+    </div>  
+   <!-- <script src="script.js"></script>-->
+  <!-- <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>-->
+</body>
+</html>

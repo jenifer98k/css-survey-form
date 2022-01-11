@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+    background-color: white;
+    color: black;
+}
+#container{
+    max-width: 750px;
+    margin:5rem auto;
+    padding: .8rem;
+    border: 2px solid rgb(209, 205, 205);
+}
+
+#firstname,
+#lastname{
+    width: 100%;
+    text-align: right;
+    color: rgb(184, 179, 179);
+    font-weight: 400;
+}
+#email
+{
+    width: 60%;  border-radius: 3px; 
+ }
+#mini, #mini1{
+   color: rgb(145, 137, 137); 
+}
+input{
+    border: 2px solid rgb(223, 214, 214);
+    color: rgb(117, 111, 111);
+}
+.title{
+   font-weight: bold;
+}
+#name{
+    width: 60%;
+}
+.two{
+    padding-left: 15px;
+}
+input{
+    border: 2px solid rgb(194, 178, 178);
+    border-radius: 3px;
+    padding: 3px;
+   
+}
+/*star*/
+div.stars {
+    width: 270px;
+    display: inline-block;
+  }
+  
+  input.star { display: none; }
+  
+  label.star {
+    float: left;
+    padding: 3px;
+    font-size: 20px;
+    color: rgb(167, 152, 152);
+  }
+  
+  input.star:checked ~ label.star:before{
+    content: '\f005';
+    color: rgb(245, 116, 30);
+   transition: all .25s;
+  }
+  
+  input.star-5:checked ~ label.star:before {
+    color: rgb(236, 101, 38);
+  }
+  
+  input.star-1:checked ~ label.star:before { color: #F62; }
+  
+  label.star:hover { transform: rotate(-15deg) scale(1.3); }
+  
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+  .red{
+    color: red;
+}
+.ex{
+    font-weight: 300;
+    color: rgb(117, 114, 114);
+}
+.grid{
+    display: grid;
+    padding: 3px;
+    grid-template-columns:16.7% 16.7% 16.7% 16.7% 16.7% 16.7%;
+    width: 100%;
+    font-weight: 300;
+    color: rgb(99, 96, 96);
+    text-align: center;
+}
+.w2{
+    background-color:white;
+    border: 0px ;
+    padding:5px;
+}
+.blk{
+    background-color: rgb(223, 217, 217);
+    border: 0px;
+    padding:5px;
+}
+#sidetitle1,#sidetitle2,#sidetitle3{
+    text-align: start;
+    padding-left: 1px;
+ font-weight: 300;
+ color: black;
+}
+  
+  
+  .grey{
+      background-color: rgb(236, 234, 234);
+  }
+ 
+textarea{
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(129, 123, 123);
+    border-radius: 3px;
+}
+ #btn{
+     padding:7px;
+ }
+ 
